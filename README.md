@@ -6,7 +6,7 @@
 | GET                    | PUT                          | POST                 | DELETE               |
 |------------------------|------------------------------|----------------------|----------------------|
 | Récupérer les services | Modifier l'état d'une valeur | Exécuter des actions | Supprimer un service |
-## IDENTIFIANTS
+## LES IDENTIFIANTS
 1. Identifie votre application :
 ```
 $applicationKey = "***";
@@ -18,4 +18,18 @@ $applicationSecret = "***";
 3. Autorise l'application :
 ```
 $consumer_key = "***";
+```
+## LES FONCTIONS
+```
+$content = (object) array(
+	"charset"=> "UTF-8",
+	"class"=> "phoneDisplay",
+	"coding"=> "7bit",
+	"message"=> "Hello world !",
+	"noStopClause"=> true,
+	"priority"=> "high",
+	"receivers"=> [ "+336********" ],
+	"senderForResponse"=> true,
+	"validityPeriod"=> 2880
+);
 ```
