@@ -19,17 +19,3 @@ $applicationSecret = "***";
 ```
 $consumer_key = "***";
 ```
-## LES FONCTIONS
-```
-$content = (object) array(
-	"charset"=> "UTF-8",
-	"class"=> "phoneDisplay",
-	"coding"=> "7bit",
-	"message"=> "Hello world !",
-	"noStopClause"=> true,
-	"priority"=> "high",
-	"receivers"=> [ "+336********" ],
-	"senderForResponse"=> true,
-	"validityPeriod"=> 2880
-);
-```
