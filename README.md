@@ -17,11 +17,6 @@
 ```
 <?php
   $applicationSecret = "***";
-  
-  /** 
-  * Autorise l'application à accéder aux méthodes choisies 
-  */
-  $consumer_key = "***";
 ?>
 ```
 3. Autorise l'application
