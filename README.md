@@ -8,7 +8,14 @@
 | Récupérer les services | Modifier l'état d'une valeur | Exécuter des actions | Supprimer un service |
 ## IDENTIFIANTS
 ```
-$applicationKey = "***"; /* Identifie votre application */
-$applicationSecret = "***"; /* Authentifie votre application */
-$consumer_key = "***"; /* Autorise l'application à accéder aux méthodes choisies */
+<?php
+  /* Identifie votre application */
+  $applicationKey = "***";
+  
+  /* Authentifie votre application */
+  $applicationSecret = "***";
+  
+  /* Autorise l'application à accéder aux méthodes choisies */
+  $consumer_key = "***";
+?>
 ```
