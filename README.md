@@ -7,21 +7,26 @@
 |------------------------|------------------------------|----------------------|----------------------|
 | Récupérer les services | Modifier l'état d'une valeur | Exécuter des actions | Supprimer un service |
 ## IDENTIFIANTS
+1. Identifie votre application
 ```
 <?php
-  /**
-  * Identifie votre application
-  */
   $applicationKey = "***";
-  
-  /**
-  * Authentifie votre application 
-  */
+?>
+```
+2. Authentifie votre application
+```
+<?php
   $applicationSecret = "***";
   
   /** 
   * Autorise l'application à accéder aux méthodes choisies 
   */
+  $consumer_key = "***";
+?>
+```
+3. Autorise l'application
+```
+<?php
   $consumer_key = "***";
 ?>
 ```
