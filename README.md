@@ -9,13 +9,19 @@
 ## IDENTIFIANTS
 ```
 <?php
-  /* Identifie votre application */
+  /**
+  * Identifie votre application
+  */
   $applicationKey = "***";
   
-  /* Authentifie votre application */
+  /**
+  * Authentifie votre application 
+  */
   $applicationSecret = "***";
   
-  /* Autorise l'application à accéder aux méthodes choisies */
+  /** 
+  * Autorise l'application à accéder aux méthodes choisies 
+  */
   $consumer_key = "***";
 ?>
 ```
