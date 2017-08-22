@@ -1,4 +1,4 @@
-# API SMS OVH
+# PHP - API SMS OVH
 * Lien du tutoriel d'OVH : [Envoyer des SMS avec l'API OVH en PHP](https://www.ovh.com/fr/g1639.envoyer_des_sms_avec_lapi_ovh_en_php)
 * Lien permettant de générer les identifiants (tokens) : [Générer les clés API](https://api.ovh.com/createToken/index.cgi?GET=/sms&GET=/sms/%2a&PUT=/sms/%2a&DELETE=/sms/%2a&POST=/sms/%2a)
 * Lien de la documentation OVH : [Documentation API SMS](https://docs.ovh.com/display/public/CRSMSFAX/API+SMS)
@@ -9,19 +9,13 @@
 ## IDENTIFIANTS
 1. Identifie votre application
 ```
-<?php
-  $applicationKey = "***";
-?>
+$applicationKey = "***";
 ```
 2. Authentifie votre application
 ```
-<?php
-  $applicationSecret = "***";
-?>
+$applicationSecret = "***";
 ```
 3. Autorise l'application
 ```
-<?php
-  $consumer_key = "***";
-?>
+$consumer_key = "***";
 ```
